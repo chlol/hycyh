@@ -1,0 +1,7 @@
+[
+	{
+		"file": "sign-file1.ts",
+		"sign": "// test sign1",
+		"content": "new content {className}"
+	}
+]

@@ -1,0 +1,8 @@
+{
+	"groupId": "com.lnngle.hycyh",
+	"artifactId": "demo",
+	"version": "0.0.1-SNAPSHOT",
+	"projectName": "demo",
+	"projectDesc": "Demo for spring boot",
+	"package": "com.lnngle.hycyh.demo"
+}

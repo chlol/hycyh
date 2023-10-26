@@ -1,0 +1,50 @@
+[
+	{
+		"tableName": "tbl_user_info",
+		"className": "UserInfo",
+		"remarks": "用户信息信息表",
+		"tableType": "TABLE",
+		"columns": [
+			{
+				"columnName": "id",
+				"attributeName": "id",
+				"remarks": "唯一标识",
+				"dataType": -5,
+				"typeName": "BIGINT UNSIGNED",
+				"columnSize": 20,
+				"decimalDigits": 0,
+				"nullable": 0
+			},
+			{
+				"columnName": "name",
+				"attributeName": "name",
+				"remarks": "用户名称",
+				"dataType": 12,
+				"typeName": "VARCHAR",
+				"columnSize": 128,
+				"decimalDigits": 0,
+				"nullable": 0
+			},
+			{
+				"columnName": "status",
+				"attributeName": "status",
+				"remarks": "状态，0：无效 1：有效",
+				"dataType": -6,
+				"typeName": "TINYINT",
+				"columnSize": 3,
+				"decimalDigits": 0,
+				"nullable": 1
+			},
+			{
+				"columnName": "created_time",
+				"attributeName": "createdTime",
+				"remarks": "创建时间",
+				"dataType": 93,
+				"typeName": "DATETIME",
+				"columnSize": 19,
+				"decimalDigits": 0,
+				"nullable": 1
+			}
+		]
+	}
+]
